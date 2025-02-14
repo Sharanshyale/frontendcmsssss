@@ -20,7 +20,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `https://new-folder-5-six.vercel.app/api/category/search?L2_category_id=${searchTerm}`
+        `https://next-interview-backend-develop.vercel.app/api/category/search?L2_category_id=${searchTerm}`
       );
 
       if (!response.ok) {
